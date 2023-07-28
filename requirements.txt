@@ -5,6 +5,8 @@ sacrebleu
 rouge_score 
 py7zr
 pandas
+numpy
+seaborn
 nltk
 tqdm
 PyYAML
@@ -18,3 +20,4 @@ ensure==1.0.2
 fastapi==0.78.0
 uvicorn==0.18.3
 Jinja2==3.1.2
+-e .
