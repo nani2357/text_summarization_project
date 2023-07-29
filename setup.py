@@ -11,7 +11,7 @@ with open("README.md", "r", encoding ="utf-8") as f:
     # Define the repository name, author's username, source repository, and author's email
     REPO_NAME = "text_summarization_project"
     AUTHOR_USER_NAME = "nani2357"
-    SRC_REPO = "text_summarization"
+    SRC_REPO = "textSummarization"
     AUTHOR_EMAIL = "naveenkadampally@gmail.com"
     
     # Use setuptools to package the project

@@ -38,6 +38,11 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
         # If any other exception is raised, re-raise it
         raise e
 
+
+
+
+
+
 # Define a function to create a list of directories
 @ensure_annotations
 def create_directories(path_to_directories: list, verbose=True):
@@ -53,6 +58,9 @@ def create_directories(path_to_directories: list, verbose=True):
         # If verbose is True, log a message indicating the directory was created
         if verbose:
             logger.info(f"Created directory at: {path}")
+            
+            
+            
 
 # Define a function to get the size of a file
 @ensure_annotations
