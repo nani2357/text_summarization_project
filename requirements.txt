@@ -12,6 +12,7 @@ tqdm
 PyYAML
 matplotlib
 torch
+gdown
 notebook
 boto3
 mypy-boto3-s3
