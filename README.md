@@ -13,4 +13,4 @@ NLP_Text Summarization using pre trained model and custom data set
 8. update the app.py
 
 
-save uri - 850913275055.dkr.ecr.eu-north-1.amazonaws.com/text-s
+- save uri - 850913275055.dkr.ecr.eu-north-1.amazonaws.com/text-s
