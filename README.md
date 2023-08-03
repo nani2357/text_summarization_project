@@ -2,6 +2,8 @@
 ### Enhancing Text Summarization with Custom Datasets: Leveraging Pre-trained PEGASUS Models for Advanced Summarization and Web Application Deployment
 
 
+
+
 ## Workflows
 1. Update config.yaml
 2. Update params.yaml
@@ -13,4 +15,4 @@
 8. update the app.py
 
 
-- save uri - 850913275055.dkr.ecr.eu-north-1.amazonaws.com/text-s
+
