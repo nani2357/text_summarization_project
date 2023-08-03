@@ -3,8 +3,8 @@
 
 To clone the repository, use the following command:
 
-'git clone https://github.com/nani2357/text_summarization_project.git'
-
+```bash
+git clone https://github.com/nani2357/text_summarization_project.git
 
 
 ## Workflows
