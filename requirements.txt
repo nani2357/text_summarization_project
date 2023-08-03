@@ -11,6 +11,9 @@ nltk
 tqdm
 PyYAML
 matplotlib
+nbconvert
+nbformat
+pillow
 torch
 gdown
 notebook
