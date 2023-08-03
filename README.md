@@ -5,7 +5,7 @@ To clone the repository, use the following command:
 
 ```bash
 git clone https://github.com/nani2357/text_summarization_project.git
-'''
+```
 
 ###Introduction
 In the era of information overload, the ability to distill essential insights from large volumes of text is more crucial than ever. This is where the field of text summarization comes into play. Text summarization is a branch of Natural Language Processing (NLP) that involves condensing a larger body of text into a short, coherent summary while preserving its key informational elements and overall meaning.
