@@ -1,9 +1,9 @@
 # Text_summarization_project
 ### Enhancing Text Summarization with Custom Datasets: Leveraging Pre-trained PEGASUS Models for Advanced Summarization and Web Application Deployment
 
-To get started with this project, clone the repository using the following command:
+To clone the repository, use the following command:
 
-git clone https://github.com/nani2357/text_summarization_project.git
+'''git clone https://github.com/nani2357/text_summarization_project.git'''
 
 
 
