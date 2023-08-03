@@ -1,8 +1,8 @@
-# text_summarization_project
-NLP_Text Summarization using pre trained model and custom data set
+# Text_summarization_project
+### Enhancing Text Summarization with Custom Datasets: Leveraging Pre-trained PEGASUS Models for Advanced Summarization and Web Application Deployment
 
 
-##Workflows
+## Workflows
 1. Update config.yaml
 2. Update params.yaml
 3. Update entity
