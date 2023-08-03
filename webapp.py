@@ -574,7 +574,7 @@ def main():
         """)
         
         # Read the Jupyter notebook file
-        with open(r'D:\INeuron\NLP_projects\Text_Summarization\test_summariazation_demo_colab.ipynb', 'r') as f:
+        with open('test_summariazation_demo_colab.ipynb', 'r') as f:
             notebook = nbformat.read(f, as_version=4)
 
     # Convert the Jupyter notebook to HTML
@@ -606,7 +606,7 @@ def main():
         """)
 
         with col2:
-            image = Image.open(r"D:\INeuron\NLP_projects\Text_Summarization\img.jpg")
+            image = Image.open("img.jpg")
 
             st.image(image, use_column_width=True)
 
