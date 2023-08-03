@@ -7,7 +7,7 @@ To clone the repository, use the following command:
 git clone https://github.com/nani2357/text_summarization_project.git
 ```
 
-###Introduction
+### Introduction
 In the era of information overload, the ability to distill essential insights from large volumes of text is more crucial than ever. This is where the field of text summarization comes into play. Text summarization is a branch of Natural Language Processing (NLP) that involves condensing a larger body of text into a short, coherent summary while preserving its key informational elements and overall meaning.
 
 The primary goal of this project is to build a text summarization model that can take a lengthy piece of text and generate a concise summary, much like a human would. This has wide-ranging applications in numerous fields such as journalism, where it can be used to generate news digests, in academia for literature reviews, or in business for summarizing reports and meetings.
@@ -60,5 +60,69 @@ Once the model was trained and evaluated, it was deployed using AWS and GitHub A
 7. Update the main.py
 8. Update the app.py
 
+## AWS-CICD-Deployment-with-Github-Actions
 
+This guide will walk you through the process of deploying your application using AWS, Docker, and GitHub Actions.
+
+### Prerequisites
+
+1. AWS account
+2. Docker installed on your local machine
+3. GitHub account
+
+### Steps
+
+### AWS Setup
+
+1. Login to your AWS console.
+2. Create an IAM user for deployment with the following access permissions:
+   - EC2: Virtual machine service from AWS
+   - ECR: Elastic Container Registry, a managed Docker registry service
+
+### Deployment Overview
+
+The deployment process consists of the following steps:
+
+1. Build a Docker image of your source code.
+2. Push your Docker image to the ECR.
+3. Launch an EC2 instance.
+4. Pull your Docker image from the ECR to your EC2 instance.
+5. Launch your Docker image on the EC2 instance.
+
+### AWS Policies
+
+The following policies need to be attached to the IAM user:
+
+1. AmazonEC2ContainerRegistryFullAccess
+2. AmazonEC2FullAccess
+
+### ECR Repository
+
+Create an ECR repository to store your Docker images. Make sure to save the URI of your repository (e.g., `566373416292.dkr.ecr.us-east-1.amazonaws.com/text-s`).
+
+### EC2 Setup
+
+Create an EC2 instance (Ubuntu). Once the instance is up and running, install Docker:
+
+```bash
+sudo apt-get update -y
+sudo apt-get upgrade
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+sudo usermod -aG docker ubuntu
+newgrp docker
+```
+### GitHub Actions
+Configure your EC2 instance as a self-hosted runner. You can do this in your repository settings under the "Actions" tab.
+
+### GitHub Secrets
+Set up the following secrets in your GitHub repository:
+
+```bash
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+AWS_REGION (e.g., us-east-1)
+AWS_ECR_LOGIN_URI (e.g., 566373416292.dkr.ecr.ap-south-1.amazonaws.com)
+ECR_REPOSITORY_NAME (e.g., simple-app)
+```
 
