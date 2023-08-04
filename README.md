@@ -94,7 +94,7 @@ The deployment process consists of the following steps:
 The following policies need to be attached to the IAM user:
 
 1. AmazonEC2ContainerRegistryFullAccess
-2. AmazonEC2FullAccess
+2. AmazonEC2FullAccess.
 
 ### ECR Repository
 
