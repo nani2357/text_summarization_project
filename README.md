@@ -28,7 +28,9 @@ Furthermore, I aim to evaluate the performance of my model rigorously and object
 
 Ultimately, the goal is to contribute to the ongoing efforts in the field of NLP to make information more accessible and manageable in the face of growing data. By creating an effective text summarization model, I hope to provide a tool that can save time and effort for anyone who needs to understand large volumes of text quickly and efficiently.
 
+
 ![Model Development Flow Chart](https://drive.google.com/uc?export=download&id=17Bfgh0xweO6C7B_fBOHRXT_sEiSLwOU1)
+
 
 ### Data Collection
 For this project, I used the SAMSum Corpus, a dataset that contains approximately 16,000 messenger-like conversations along with their summaries. These conversations were created and written down by linguists fluent in English, reflecting a variety of topics, styles, and registers. The dataset was prepared by Samsung R&D Institute Poland and is distributed for research purposes.
